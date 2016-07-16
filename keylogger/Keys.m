@@ -15,6 +15,7 @@
 @property (nonatomic, retain) AVAudioPlayer * audioPlayer;
 @property (nonatomic, retain) NSArray * sounds;
 @property (nonatomic, retain) NSArray * systemSounds;
+@property (nonatomic, retain) NSDictionary * keySounds;
 
 @end
 
@@ -56,6 +57,37 @@ static Keys * _singleton = nil;
            @1540,
            @1760
         ];
+        
+        _keySounds = @{
+          @"a":@220,
+          @"b":@220,
+          @"c":@220,
+          @"d":@220,
+          @"e":@220,
+          @"f":@220,
+          @"g":@220,
+          @"h":@220,
+          @"i":@220,
+          @"j":@220,
+          @"k":@220,
+          @"l":@220,
+          @"m":@220,
+          @"n":@220,
+          @"o":@220,
+          @"p":@220,
+          @"q":@220,
+          @"r":@220,
+          @"s":@220,
+          @"t":@220,
+          @"u":@220,
+          @"v":@220,
+          @"w":@220,
+          @"x":@220,
+          @"y":@220,
+          @"z":@220,
+          
+                       
+        };
     }
     return self;
 }
@@ -67,7 +99,7 @@ static Keys * _singleton = nil;
     count++;
     
 }
-//
+// get key code
 - (NSString*)keyCodeConversion:(unsigned short)keyCode {
     
     //Convert keyCode to string (no simple method around this)
@@ -171,6 +203,112 @@ static Keys * _singleton = nil;
             
         default:
             return @"<Unknown>";
+            break;
+    }
+}
+
+-(NSNumber*) freqForKey:(unsigned short)keyCode {
+    
+    switch (keyCode) {
+        case kVK_ANSI_A:                return @220; break;
+        case kVK_ANSI_S:                return @220; break;
+        case kVK_ANSI_D:                return @220; break;
+        case kVK_ANSI_F:                return @220; break;
+        case kVK_ANSI_H:                return @220; break;
+        case kVK_ANSI_G:                return @220; break;
+        case kVK_ANSI_Z:                return @220; break;
+        case kVK_ANSI_X:                return @220; break;
+        case kVK_ANSI_C:                return @220; break;
+        case kVK_ANSI_V:                return @220; break;
+        case kVK_ANSI_B:                return @220; break;
+        case kVK_ANSI_Q:                return @220; break;
+        case kVK_ANSI_W:                return @220; break;
+        case kVK_ANSI_E:                return @220; break;
+        case kVK_ANSI_R:                return @220; break;
+        case kVK_ANSI_T:                return @220; break;
+        case kVK_ANSI_Y:                return @220; break;
+        case kVK_ANSI_1:                return @220; break;
+        case kVK_ANSI_2:                return @220; break;
+        case kVK_ANSI_3:                return @220; break;
+        case kVK_ANSI_4:                return @220; break;
+        case kVK_ANSI_6:                return @220; break;
+        case kVK_ANSI_5:                return @220; break;
+        case kVK_ANSI_Equal:            return @220; break;
+        case kVK_ANSI_9:                return @220; break;
+        case kVK_ANSI_7:                return @220; break;
+        case kVK_ANSI_Minus:            return @220; break;
+        case kVK_ANSI_8:                return @220; break;
+        case kVK_ANSI_0:                return @220; break;
+        case kVK_ANSI_RightBracket:     return @220; break;
+        case kVK_ANSI_O:                return @220; break;
+        case kVK_ANSI_U:                return @220; break;
+        case kVK_ANSI_LeftBracket:      return @220; break;
+        case kVK_ANSI_I:                return @220; break;
+        case kVK_ANSI_P:                return @220; break;
+        case kVK_ANSI_L:                return @220; break;
+        case kVK_ANSI_J:                return @220; break;
+        case kVK_ANSI_Quote:            return @220; break;
+        case kVK_ANSI_K:                return @220; break;
+        case kVK_ANSI_Semicolon:        return @220; break;
+        case kVK_ANSI_Backslash:        return @220; break;
+        case kVK_ANSI_Comma:            return @220; break;
+        case kVK_ANSI_Slash:            return @220; break;
+        case kVK_ANSI_N:                return @220; break;
+        case kVK_ANSI_M:                return @220; break;
+        case kVK_ANSI_Period:           return @220; break;
+        case kVK_ANSI_Grave:            return @220; break;
+        case kVK_ANSI_KeypadDecimal:    return @220; break;
+        case kVK_ANSI_KeypadMultiply:   return @220; break;
+        case kVK_ANSI_KeypadPlus:       return @220; break;
+        case kVK_ANSI_KeypadClear:      return @220; break;
+        case kVK_ANSI_KeypadDivide:     return @220; break;
+        case kVK_ANSI_KeypadEnter:      return @220; break;
+        case kVK_ANSI_KeypadMinus:      return @220; break;
+        case kVK_ANSI_KeypadEquals:     return @220; break;
+        case kVK_ANSI_Keypad0:          return @220; break;
+        case kVK_ANSI_Keypad1:          return @220; break;
+        case kVK_ANSI_Keypad2:          return @220; break;
+        case kVK_ANSI_Keypad3:          return @220; break;
+        case kVK_ANSI_Keypad4:          return @220; break;
+        case kVK_ANSI_Keypad5:          return @220; break;
+        case kVK_ANSI_Keypad6:          return @220; break;
+        case kVK_ANSI_Keypad7:          return @220; break;
+        case kVK_ANSI_Keypad8:          return @220; break;
+        case kVK_ANSI_Keypad9:          return @220; break;
+            
+        case kVK_Return:                return @220; break;
+        case kVK_Tab:                   return @220; break;
+        case kVK_Space:                 return @220; break;
+        case kVK_Delete:                return @220; break;
+        case kVK_Escape:                return @220; break;
+        case kVK_F1:                    return @220; break;
+        case kVK_F2:                    return @220; break;
+        case kVK_F3:                    return @220; break;
+        case kVK_F4:                    return @220; break;
+        case kVK_F5:                    return @220; break;
+        case kVK_F6:                    return @220; break;
+        case kVK_F7:                    return @220; break;
+        case kVK_F8:                    return @220; break;
+        case kVK_F9:                    return @220; break;
+        case kVK_F10:                   return @220; break;
+        case kVK_F11:                   return @220; break;
+        case kVK_F12:                   return @220; break;
+        case kVK_F13:                   return @220; break;
+        case kVK_F14:                   return @220; break;
+        case kVK_F15:                   return @220; break;
+        case kVK_F16:                   return @220; break;
+        case kVK_F17:                   return @220; break;
+        case kVK_F18:                   return @220; break;
+        case kVK_F19:                   return @220; break;
+        case kVK_F20:                   return @220; break;
+        case kVK_ForwardDelete:         return @220; break;
+        case kVK_LeftArrow:             return @220; break;
+        case kVK_RightArrow:            return @220; break;
+        case kVK_DownArrow:             return @220; break;
+        case kVK_UpArrow:               return @220; break;
+            
+        default:
+            return @30;
             break;
     }
 }
