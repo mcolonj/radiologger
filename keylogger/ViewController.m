@@ -16,10 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"view did load");
-     _player = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"1" ofType:@"wav"]] error:nil];
+    [self.status setStringValue:@"Developed by Michael Colon\nProof of concept for keylogging using system-bus-radio."];
 
-    // Do any additional setup after loading the view.
 }
 
 - (void) viewDidAppear {
@@ -35,6 +33,10 @@
 - (IBAction) playSound {
     AVAudioPlayer *sound = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL URLWithString:[[NSBundle mainBundle] pathForResource:@"1" ofType:@"wav"]] error:nil];
     [sound play];
+}
+
+- (IBAction) performClick:(id)sender {
+    
 }
 
 @end

@@ -28,7 +28,7 @@ static Keys * _singleton = nil;
     if (! _singleton ) _singleton = [[Keys alloc] init];
     return _singleton;
 }
-
+//jdlsklkjkfsdlfkj
 - (id) init {
     if((self = [super init])){
         _audioPlayer = [[AVAudioPlayer alloc] init];

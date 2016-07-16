@@ -12,7 +12,7 @@
 @interface ViewController : NSViewController
 
 @property(nonatomic, strong) IBOutlet NSTextField *status;
-@property(nonatomic, strong) IBOutlet NSButton *button;
 - (IBAction) playSound;
+- (IBAction) performClick:(id)sender;
 @end
 

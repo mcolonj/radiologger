@@ -1,10 +1,11 @@
-//
-//  syssound.h
-//  testsys
-//
-//  Created by Michael Colon on 7/16/16.
+// Original Concept - SYSTEM BUS RADIO
+// https://github.com/fulldecent/system-bus-radio
+//  Copyright 2016 William Entriken
+
+//  Modified and expanded by Michael Colon on 7/16/16.
 //  Copyright © 2016 Michael Colon. All rights reserved.
-//
+// https://github.com/mcolonj/keylogger
+
 
 #include <stdio.h>
 #include <emmintrin.h>
