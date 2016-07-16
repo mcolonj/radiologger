@@ -17,6 +17,7 @@
 		8D47A9311D398D0A005AA5CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D47A9301D398D0A005AA5CA /* Foundation.framework */; };
 		8D47A9331D398D13005AA5CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D47A9321D398D13005AA5CA /* Cocoa.framework */; };
 		8D5FFD681D3ABA0000FF218E /* syssound.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FFD661D3ABA0000FF218E /* syssound.c */; };
+		8DA00B191D3AF51300FFD779 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 8DA00B181D3AF51300FFD779 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		8D47A9321D398D13005AA5CA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		8D5FFD661D3ABA0000FF218E /* syssound.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = syssound.c; sourceTree = "<group>"; };
 		8D5FFD671D3ABA0000FF218E /* syssound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = syssound.h; sourceTree = "<group>"; };
+		8DA00B181D3AF51300FFD779 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				8D47A8BE1D394748005AA5CA /* Main.storyboard */,
 				8D47A8C11D394748005AA5CA /* Info.plist */,
 				8D47A8B61D394748005AA5CA /* Supporting Files */,
+				8DA00B181D3AF51300FFD779 /* README */,
 			);
 			name = radiologger;
 			path = keylogger;
@@ -156,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DA00B191D3AF51300FFD779 /* README in Resources */,
 				8D47A8BD1D394748005AA5CA /* Assets.xcassets in Resources */,
 				8D47A8C01D394748005AA5CA /* Main.storyboard in Resources */,
 			);
