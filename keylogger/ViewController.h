@@ -7,9 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
+//
 
 @interface ViewController : NSViewController
 
-
+@property(nonatomic, strong) IBOutlet NSTextField *status;
+@property(nonatomic, strong) IBOutlet NSButton *button;
+- (IBAction) playSound;
 @end
 

