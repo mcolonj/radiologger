@@ -9,11 +9,9 @@
 #import <Foundation/Foundation.h>
 #import <AppKit/AppKit.h>
 
-
 @interface Keys : NSObject {
     NSInteger count;
 }
-
 +(Keys*) sharedKeyLogger;
 - (void)handleKeyPress:(NSEvent*)event;
 @end

