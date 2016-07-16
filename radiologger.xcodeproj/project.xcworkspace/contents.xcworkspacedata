@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:keylogger.xcodeproj">
+      location = "self:/Users/michaelcolon/Development/xcode/keylogger/radiologger.xcodeproj">
    </FileRef>
 </Workspace>

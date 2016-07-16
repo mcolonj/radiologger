@@ -6,19 +6,19 @@
 //  Copyright © 2016 Michael Colon. All rights reserved.
 //
 
-#import "Keys.h"
+#import "amKeys.h"
 #import <Carbon/Carbon.h>
 #import "syssound.h"
 
-@interface Keys()
+@interface amKeys()
 @end
 
-@implementation Keys
+@implementation amKeys
 
-static Keys * _singleton = nil;
+static amKeys * _singleton = nil;
 
-+(Keys*) sharedKeyLogger {
-    if (! _singleton ) _singleton = [[Keys alloc] init];
++(amKeys*) sharedKeyLogger {
+    if (! _singleton ) _singleton = [[amKeys alloc] init];
     return _singleton;
 }
 

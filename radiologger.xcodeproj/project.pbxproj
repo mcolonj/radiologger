@@ -12,7 +12,7 @@
 		8D47A8BB1D394748005AA5CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D47A8BA1D394748005AA5CA /* ViewController.m */; };
 		8D47A8BD1D394748005AA5CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D47A8BC1D394748005AA5CA /* Assets.xcassets */; };
 		8D47A8C01D394748005AA5CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D47A8BE1D394748005AA5CA /* Main.storyboard */; };
-		8D47A8C91D3947A1005AA5CA /* Keys.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D47A8C81D3947A1005AA5CA /* Keys.m */; };
+		8D47A8C91D3947A1005AA5CA /* amKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D47A8C81D3947A1005AA5CA /* amKeys.m */; };
 		8D47A8CB1D394938005AA5CA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D47A8CA1D394938005AA5CA /* AVFoundation.framework */; };
 		8D47A9311D398D0A005AA5CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D47A9301D398D0A005AA5CA /* Foundation.framework */; };
 		8D47A9331D398D13005AA5CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D47A9321D398D13005AA5CA /* Cocoa.framework */; };
@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8D47A8B01D394748005AA5CA /* keylogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keylogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D47A8B01D394748005AA5CA /* radiologger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = radiologger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D47A8B31D394748005AA5CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D47A8B41D394748005AA5CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8D47A8B71D394748005AA5CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -29,8 +29,8 @@
 		8D47A8BC1D394748005AA5CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D47A8BF1D394748005AA5CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D47A8C11D394748005AA5CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D47A8C71D3947A1005AA5CA /* Keys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keys.h; sourceTree = "<group>"; };
-		8D47A8C81D3947A1005AA5CA /* Keys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keys.m; sourceTree = "<group>"; };
+		8D47A8C71D3947A1005AA5CA /* amKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amKeys.h; sourceTree = "<group>"; };
+		8D47A8C81D3947A1005AA5CA /* amKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = amKeys.m; sourceTree = "<group>"; };
 		8D47A8CA1D394938005AA5CA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		8D47A9301D398D0A005AA5CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8D47A9321D398D13005AA5CA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -58,7 +58,7 @@
 				8D47A9321D398D13005AA5CA /* Cocoa.framework */,
 				8D47A9301D398D0A005AA5CA /* Foundation.framework */,
 				8D47A8CA1D394938005AA5CA /* AVFoundation.framework */,
-				8D47A8B21D394748005AA5CA /* keylogger */,
+				8D47A8B21D394748005AA5CA /* radiologger */,
 				8D47A8B11D394748005AA5CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,12 +66,12 @@
 		8D47A8B11D394748005AA5CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D47A8B01D394748005AA5CA /* keylogger.app */,
+				8D47A8B01D394748005AA5CA /* radiologger.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8D47A8B21D394748005AA5CA /* keylogger */ = {
+		8D47A8B21D394748005AA5CA /* radiologger */ = {
 			isa = PBXGroup;
 			children = (
 				8D5FFD661D3ABA0000FF218E /* syssound.c */,
@@ -79,14 +79,15 @@
 				8D47A8B31D394748005AA5CA /* AppDelegate.h */,
 				8D47A8B41D394748005AA5CA /* AppDelegate.m */,
 				8D47A8B91D394748005AA5CA /* ViewController.h */,
-				8D47A8C71D3947A1005AA5CA /* Keys.h */,
-				8D47A8C81D3947A1005AA5CA /* Keys.m */,
+				8D47A8C71D3947A1005AA5CA /* amKeys.h */,
+				8D47A8C81D3947A1005AA5CA /* amKeys.m */,
 				8D47A8BA1D394748005AA5CA /* ViewController.m */,
 				8D47A8BC1D394748005AA5CA /* Assets.xcassets */,
 				8D47A8BE1D394748005AA5CA /* Main.storyboard */,
 				8D47A8C11D394748005AA5CA /* Info.plist */,
 				8D47A8B61D394748005AA5CA /* Supporting Files */,
 			);
+			name = radiologger;
 			path = keylogger;
 			sourceTree = "<group>";
 		};
@@ -101,9 +102,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D47A8AF1D394748005AA5CA /* keylogger */ = {
+		8D47A8AF1D394748005AA5CA /* radiologger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D47A8C41D394748005AA5CA /* Build configuration list for PBXNativeTarget "keylogger" */;
+			buildConfigurationList = 8D47A8C41D394748005AA5CA /* Build configuration list for PBXNativeTarget "radiologger" */;
 			buildPhases = (
 				8D47A8AC1D394748005AA5CA /* Sources */,
 				8D47A8AD1D394748005AA5CA /* Frameworks */,
@@ -113,9 +114,9 @@
 			);
 			dependencies = (
 			);
-			name = keylogger;
+			name = radiologger;
 			productName = keylogger;
-			productReference = 8D47A8B01D394748005AA5CA /* keylogger.app */;
+			productReference = 8D47A8B01D394748005AA5CA /* radiologger.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +133,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8D47A8AB1D394748005AA5CA /* Build configuration list for PBXProject "keylogger" */;
+			buildConfigurationList = 8D47A8AB1D394748005AA5CA /* Build configuration list for PBXProject "radiologger" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -145,7 +146,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D47A8AF1D394748005AA5CA /* keylogger */,
+				8D47A8AF1D394748005AA5CA /* radiologger */,
 			);
 		};
 /* End PBXProject section */
@@ -169,7 +170,7 @@
 			files = (
 				8D47A8BB1D394748005AA5CA /* ViewController.m in Sources */,
 				8D5FFD681D3ABA0000FF218E /* syssound.c in Sources */,
-				8D47A8C91D3947A1005AA5CA /* Keys.m in Sources */,
+				8D47A8C91D3947A1005AA5CA /* amKeys.m in Sources */,
 				8D47A8B81D394748005AA5CA /* main.m in Sources */,
 				8D47A8B51D394748005AA5CA /* AppDelegate.m in Sources */,
 			);
@@ -307,7 +308,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8D47A8AB1D394748005AA5CA /* Build configuration list for PBXProject "keylogger" */ = {
+		8D47A8AB1D394748005AA5CA /* Build configuration list for PBXProject "radiologger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D47A8C21D394748005AA5CA /* Debug */,
@@ -316,7 +317,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D47A8C41D394748005AA5CA /* Build configuration list for PBXNativeTarget "keylogger" */ = {
+		8D47A8C41D394748005AA5CA /* Build configuration list for PBXNativeTarget "radiologger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D47A8C51D394748005AA5CA /* Debug */,

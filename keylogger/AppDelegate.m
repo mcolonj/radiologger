@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "Keys.h"
+#import "amKeys.h"
 
 
 @interface AppDelegate ()
@@ -18,12 +18,13 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     [NSEvent addGlobalMonitorForEventsMatchingMask:NSKeyDownMask
-                                           handler:^ (NSEvent *event) {[[Keys sharedKeyLogger] handleKeyPress:event];}];
+                                           handler:^ (NSEvent *event) {[[amKeys sharedKeyLogger] handleKeyPress:event];}];
 }
 
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
+    
 }
 
 @end
