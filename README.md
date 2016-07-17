@@ -6,10 +6,9 @@ I found a research project by called [System Bus Radio](https://github.com/fulld
 
 His project is written in C and if you have any interest in SDR, HAM stuff or terminal whispering please go check out [his research](ttps://github.com/fulldecent/system-bus-radio).
 
-I was experimenting with a keylogging on Mac OSX El Capitan, so I came up with this small POC.
+I was experimenting with a keylogging on Mac OSX El Capitan and I came up with this small POC.
 
-It took me a couple hours to put this project together, so your imagination is actually what is possible for this POC.
-
+It took me a couple hours to put this project together, so what you imagine is acutally what is possible.
 
 Some links:
 
