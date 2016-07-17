@@ -15,12 +15,12 @@
 		8DA00B2C1D3AF89200FFD779 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA00B211D3AF89200FFD779 /* AppDelegate.m */; };
 		8DA00B2D1D3AF89200FFD779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA00B221D3AF89200FFD779 /* Assets.xcassets */; };
 		8DA00B2E1D3AF89200FFD779 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8DA00B231D3AF89200FFD779 /* Base.lproj */; };
-		8DA00B2F1D3AF89200FFD779 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8DA00B241D3AF89200FFD779 /* Info.plist */; };
 		8DA00B301D3AF89200FFD779 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA00B251D3AF89200FFD779 /* main.m */; };
 		8DA00B311D3AF89200FFD779 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 8DA00B261D3AF89200FFD779 /* README */; };
 		8DA00B321D3AF89200FFD779 /* syssound.c in Sources */ = {isa = PBXBuildFile; fileRef = 8DA00B271D3AF89200FFD779 /* syssound.c */; };
 		8DA00B331D3AF89200FFD779 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA00B2A1D3AF89200FFD779 /* ViewController.m */; };
 		8DA00B361D3AF8CA00FFD779 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA00B341D3AF8CA00FFD779 /* Main.storyboard */; };
+		8DA00B391D3B028C00FFD779 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8DA00B371D3B027800FFD779 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,6 @@
 		8DA00B211D3AF89200FFD779 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = radiologger/AppDelegate.m; sourceTree = "<group>"; };
 		8DA00B221D3AF89200FFD779 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = radiologger/Assets.xcassets; sourceTree = "<group>"; };
 		8DA00B231D3AF89200FFD779 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = radiologger/Base.lproj; sourceTree = "<group>"; };
-		8DA00B241D3AF89200FFD779 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = radiologger/Info.plist; sourceTree = "<group>"; };
 		8DA00B251D3AF89200FFD779 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = radiologger/main.m; sourceTree = "<group>"; };
 		8DA00B261D3AF89200FFD779 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = radiologger/README; sourceTree = "<group>"; };
 		8DA00B271D3AF89200FFD779 /* syssound.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = syssound.c; path = radiologger/syssound.c; sourceTree = "<group>"; };
@@ -43,6 +42,7 @@
 		8DA00B291D3AF89200FFD779 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = radiologger/ViewController.h; sourceTree = "<group>"; };
 		8DA00B2A1D3AF89200FFD779 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = radiologger/ViewController.m; sourceTree = "<group>"; };
 		8DA00B351D3AF8CA00FFD779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = radiologger/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DA00B371D3B027800FFD779 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = radiologger/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +81,7 @@
 		8DA00B1D1D3AF87C00FFD779 /* radiologger */ = {
 			isa = PBXGroup;
 			children = (
+				8DA00B371D3B027800FFD779 /* Info.plist */,
 				8DA00B341D3AF8CA00FFD779 /* Main.storyboard */,
 				8DA00B1E1D3AF89200FFD779 /* amKeys.h */,
 				8DA00B1F1D3AF89200FFD779 /* amKeys.m */,
@@ -88,7 +89,6 @@
 				8DA00B211D3AF89200FFD779 /* AppDelegate.m */,
 				8DA00B221D3AF89200FFD779 /* Assets.xcassets */,
 				8DA00B231D3AF89200FFD779 /* Base.lproj */,
-				8DA00B241D3AF89200FFD779 /* Info.plist */,
 				8DA00B251D3AF89200FFD779 /* main.m */,
 				8DA00B261D3AF89200FFD779 /* README */,
 				8DA00B271D3AF89200FFD779 /* syssound.c */,
@@ -156,8 +156,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DA00B391D3B028C00FFD779 /* Info.plist in Resources */,
 				8DA00B311D3AF89200FFD779 /* README in Resources */,
-				8DA00B2F1D3AF89200FFD779 /* Info.plist in Resources */,
 				8DA00B2D1D3AF89200FFD779 /* Assets.xcassets in Resources */,
 				8DA00B361D3AF8CA00FFD779 /* Main.storyboard in Resources */,
 				8DA00B2E1D3AF89200FFD779 /* Base.lproj in Resources */,
